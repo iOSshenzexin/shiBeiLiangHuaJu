@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondRegisterViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="shG-rk-N5e">
+                    <rect key="frame" x="10" y="87" width="300" height="120"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="register_name.png" translatesAutoresizingMaskIntoConstraints="NO" id="B08-2W-PRt">
+                            <rect key="frame" x="8" y="18" width="91" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="91" id="AVv-ef-U9J"/>
+                                <constraint firstAttribute="height" constant="26" id="HgF-1a-9aV"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="register_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="psa-Jb-ISI">
+                            <rect key="frame" x="8" y="77" width="91" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="26" id="DKc-0I-gnJ"/>
+                                <constraint firstAttribute="width" constant="91" id="ksZ-Yt-7zz"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="刘佳佳" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVb-bn-9f6">
+                            <rect key="frame" x="141" y="13" width="142" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="1It-T6-koF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.2029123732" blue="0.201644831" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15192712512" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGC-NJ-Ogl">
+                            <rect key="frame" x="141" y="72" width="142" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="aUx-TL-7KN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.2029123732" blue="0.201644831" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="hGC-NJ-Ogl" firstAttribute="leading" secondItem="psa-Jb-ISI" secondAttribute="trailing" constant="42" id="4XZ-rW-AXb"/>
+                        <constraint firstItem="psa-Jb-ISI" firstAttribute="top" secondItem="B08-2W-PRt" secondAttribute="bottom" constant="33" id="7HA-Ha-3Gj"/>
+                        <constraint firstItem="vVb-bn-9f6" firstAttribute="leading" secondItem="B08-2W-PRt" secondAttribute="trailing" constant="42" id="7VO-qA-525"/>
+                        <constraint firstAttribute="trailing" secondItem="hGC-NJ-Ogl" secondAttribute="trailing" constant="17" id="beL-Yq-0vp"/>
+                        <constraint firstAttribute="trailing" secondItem="vVb-bn-9f6" secondAttribute="trailing" constant="17" id="fbO-Qd-vib"/>
+                        <constraint firstItem="psa-Jb-ISI" firstAttribute="leading" secondItem="shG-rk-N5e" secondAttribute="leading" constant="8" id="mGN-5l-QG4"/>
+                        <constraint firstItem="B08-2W-PRt" firstAttribute="leading" secondItem="shG-rk-N5e" secondAttribute="leading" constant="8" id="mjy-6h-rzB"/>
+                        <constraint firstAttribute="bottom" secondItem="hGC-NJ-Ogl" secondAttribute="bottom" constant="12" id="qpl-YB-JHI"/>
+                        <constraint firstItem="B08-2W-PRt" firstAttribute="top" secondItem="shG-rk-N5e" secondAttribute="top" constant="18" id="rTw-nH-PjG"/>
+                        <constraint firstItem="vVb-bn-9f6" firstAttribute="top" secondItem="shG-rk-N5e" secondAttribute="top" constant="13" id="uys-6n-hJx"/>
+                        <constraint firstAttribute="height" constant="120" id="wO0-nh-txk"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOR-wo-YDI">
+                    <rect key="frame" x="184" y="379" width="112" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="112" id="F0A-BF-A9i"/>
+                        <constraint firstAttribute="height" constant="37" id="W2Z-ZP-YlB"/>
+                        <constraint firstAttribute="width" constant="112" id="xaA-so-Imj"/>
+                    </constraints>
+                    <state key="normal" image="register_audit_refuse.png"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="F0A-BF-A9i"/>
+                        </mask>
+                    </variation>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekK-bI-O71">
+                    <rect key="frame" x="12" y="146" width="300" height="2"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="fNi-rk-pp4"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7e8-ZC-1Gs">
+                    <rect key="frame" x="40" y="379" width="112" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="112" id="BTs-gk-S5J"/>
+                        <constraint firstAttribute="height" constant="37" id="FWv-KM-InX"/>
+                        <constraint firstAttribute="width" constant="112" id="Is5-0P-EcS"/>
+                    </constraints>
+                    <state key="normal" image="register_audit_pass.png"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="BTs-gk-S5J"/>
+                        </mask>
+                    </variation>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="UOR-wo-YDI" firstAttribute="leading" secondItem="7e8-ZC-1Gs" secondAttribute="trailing" constant="40" id="0Go-I7-0WB"/>
+                <constraint firstItem="shG-rk-N5e" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="87" id="12H-hj-5h7"/>
+                <constraint firstItem="UOR-wo-YDI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" multiplier="1.8" id="76d-Be-MlJ"/>
+                <constraint firstItem="UOR-wo-YDI" firstAttribute="leading" secondItem="7e8-ZC-1Gs" secondAttribute="trailing" constant="32" id="7O2-3Q-E0f"/>
+                <constraint firstAttribute="trailing" secondItem="shG-rk-N5e" secondAttribute="trailing" constant="10" id="J4t-j5-aux"/>
+                <constraint firstItem="7e8-ZC-1Gs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" multiplier="0.2" id="Len-YW-2Ui"/>
+                <constraint firstItem="shG-rk-N5e" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="PVs-uy-bkl"/>
+                <constraint firstItem="ekK-bI-O71" firstAttribute="top" secondItem="B08-2W-PRt" secondAttribute="bottom" constant="15" id="TsZ-FU-R9k"/>
+                <constraint firstItem="ekK-bI-O71" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="fy3-6S-USP"/>
+                <constraint firstItem="UOR-wo-YDI" firstAttribute="top" secondItem="7e8-ZC-1Gs" secondAttribute="top" id="hm1-aT-G9P"/>
+                <constraint firstAttribute="trailing" secondItem="ekK-bI-O71" secondAttribute="trailing" constant="8" id="p9c-nU-ae0"/>
+                <constraint firstItem="7e8-ZC-1Gs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" multiplier="0.6" id="sbF-kq-6U8"/>
+                <constraint firstItem="7e8-ZC-1Gs" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="1.4" id="vZz-bv-1ur"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Len-YW-2Ui"/>
+                    <exclude reference="0Go-I7-0WB"/>
+                    <exclude reference="76d-Be-MlJ"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="273" y="98"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="register_audit_pass.png" width="112" height="37"/>
+        <image name="register_audit_refuse.png" width="112" height="37"/>
+        <image name="register_name.png" width="82" height="19"/>
+        <image name="register_phone.png" width="82" height="19"/>
+    </resources>
+</document>
